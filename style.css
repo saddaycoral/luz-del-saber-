@@ -1,0 +1,14 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- HTML -->
+<div class="tarjeta">Tarjeta con estilos aplicados.</div>
+
+<!-- CSS externo -->
+<style>
+.tarjeta {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  color: #2d3748;
+}
+</style>
