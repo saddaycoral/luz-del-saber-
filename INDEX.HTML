@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luz del Saber - Educación en Línea</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- ENCABEZADO -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-indigo-600">Luz del Saber</h1>
+      <nav class="space-x-6">
+        <a href="#inicio" class="hover:text-indigo-500">Inicio</a>
+        <a href="#cursos" class="hover:text-indigo-500">Cursos</a>
+        <a href="#testimonios" class="hover:text-indigo-500">Testimonios</a>
+        <a href="#contacto" class="hover:text-indigo-500">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / PORTADA -->
+  <section id="inicio" class="bg-indigo-100 py-20 text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4 text-indigo-700">Bienvenido a Luz del Saber</h2>
+      <p class="text-lg mb-6">Tu camino hacia el conocimiento comienza aquí. Aprende en línea, a tu ritmo, con los mejores docentes.</p>
+      <a href="#cursos" class="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">Explorar Cursos</a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CURSOS -->
+  <section id="cursos" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">Nuestros Cursos</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <img src="https://source.unsplash.com/400x250/?education,math" alt="Curso de Matemáticas" class="rounded mb-4">
+          <h4 class="text-xl font-semibold mb-2">Matemáticas para Todos</h4>
+          <p class="text-gray-600 mb-4">Aprende desde lo básico hasta cálculo avanzado con nuestro enfoque práctico.</p>
+          <a href="#" class="text-indigo-600 font-semibold hover:underline">Ver más →</a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <img src="https://source.unsplash.com/400x250/?education,technology" alt="Curso de Tecnología" class="rounded mb-4">
+          <h4 class="text-xl font-semibold mb-2">Introducción a la Tecnología</h4>
+          <p class="text-gray-600 mb-4">Domina herramientas digitales esenciales para el mundo moderno.</p>
+          <a href="#" class="text-indigo-600 font-semibold hover:underline">Ver más →</a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <img src="https://source.unsplash.com/400x250/?education,language" alt="Curso de Inglés" class="rounded mb-4">
+          <h4 class="text-xl font-semibold mb-2">Inglés para Principiantes</h4>
+          <p class="text-gray-600 mb-4">Mejora tus habilidades en inglés con clases interactivas y divertidas.</p>
+          <a href="#" class="text-indigo-600 font-semibold hover:underline">Ver más →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios" class="bg-indigo-50 py-20">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-12">Testimonios de Estudiantes</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-700 italic">"Gracias a Luz del Saber, logré terminar mis estudios mientras trabajaba. ¡Totalmente recomendado!"</p>
+          <div class="mt-4 font-semibold text-indigo-600">María López</div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-700 italic">"Los cursos son muy didácticos y los tutores siempre están para ayudarte. Excelente experiencia."</p>
+          <div class="mt-4 font-semibold text-indigo-600">Carlos Ramírez</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Contáctanos</h3>
+      <p class="mb-8 text-gray-600">¿Tienes dudas o necesitas ayuda? Estamos para servirte.</p>
+      <form class="grid md:grid-cols-2 gap-4 text-left">
+        <input type="text" placeholder="Nombre" class="p-3 border rounded-md w-full" />
+        <input type="email" placeholder="Correo electrónico" class="p-3 border rounded-md w-full" />
+        <textarea placeholder="Mensaje" class="p-3 border rounded-md md:col-span-2 w-full"></textarea>
+        <button class="bg-indigo-600 text-white py-3 px-6 rounded-md hover:bg-indigo-700 md:col-span-2">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="bg-indigo-600 text-white py-6 text-center">
+    <p>&copy; 2025 Luz del Saber. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
